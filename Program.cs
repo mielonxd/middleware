@@ -28,6 +28,6 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-app.Usechecking_the_browser(); //use own middleware to check the browser name
+app.UseCheckingthebrowser(); //use own middleware to check the browser name
 
 app.Run();

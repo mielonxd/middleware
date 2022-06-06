@@ -27,7 +27,7 @@ namespace middleware.Middleware
     }
     public static class CheckingthebrowserExtensions
     {
-        public static IApplicationBuilder Usechecking_the_browser(this IApplicationBuilder builder)
+        public static IApplicationBuilder UseCheckingthebrowser(this IApplicationBuilder builder)
         {
             return builder.UseMiddleware<Checkingthebrowser>();
         }
